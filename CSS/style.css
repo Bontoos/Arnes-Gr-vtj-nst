@@ -251,6 +251,7 @@ input[type=text], input[type=email], select, textarea {
     justify-self: center;
     border-radius: 5px;
     padding: 20px;
+    font-family: jmh;
 }
 
 /* Footer */
@@ -260,5 +261,6 @@ footer {
     height: 50px;
     justify-content: center;
     align-items: start;
+    font-family: jmh;
 
 }
