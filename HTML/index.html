@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arnes Grävtjänst</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/index.js" defer></script>
 </head>
 <body>
     <nav>
-        <a href=""><img src="IMAGES/Logga.png" alt=""></a>
+        <a href=""><img src="../IMAGES/Logga.png" alt=""></a>
         <ul>
-            <li><a href="#">Hem</a></li>
-            <li><a href="#">Om</a></li>
-            <li><a href="#">Kostnader</a></li>
-            <li><a href="#">Kontakta</a></li>
+            <li class="active"><a href="#homeSida">Hem</a></li>
+            <li><a href="#omSida">Om</a></li>
+            <li><a href="#kostnadSida">Kostnader</a></li>
+            <li><a href="#kontaktSida">Kontakta</a></li>
         </ul>
     </nav>
-    <section class="hero">
+    <section class="hero" id="homeSida">
         <div class="container">
             <div class="left">
                 <h1>" Arnes Grävtjänst – Vi gör jobbet där marken möter möjligheterna! "</h1>
@@ -25,14 +26,14 @@
             </div>
             
             <div class="right">
-                <img src="IMAGES/Grävmaskin1.png" alt="">
+                <img src="../IMAGES/Grävmaskin1.png" alt="">
             </div>
         </div>
     </section>
-    <section class="om">
+    <section class="om" id="omSida">
         <div class="container">
             <div class="left">
-                <img src="IMAGES/Grävmaskin2.png" alt="">
+                <img src="../IMAGES/Grävmaskin2.png" alt="">
             </div>
             <div class="right">
                 <h2>Om Arnes Grävtjänst</h2>
@@ -40,10 +41,10 @@
             </div>
         </div>
     </section>
-    <section class="kostnader">
+    <section class="kostnader" id="kostnadSida">
         <div class="container">
             <div class="right">
-                <img src="IMAGES/Grävmaskin3.png" alt="">
+                <img src="../IMAGES/Grävmaskin3.png" alt="">
             </div>
             <div class="left">
                 <h2>Vad påverkar kostnaden?</h2>
@@ -56,7 +57,7 @@
             </div>
         </div>
     </section>
-    <section class="kontakta">
+    <section class="kontakta" id="kontaktSida">
         <div class="container">
             <div class="right">
                 <h1>Kontakta oss</h1>
